@@ -1,5 +1,5 @@
 # Image Resizer
-`
+
 A simple Python script for resizing images using `OpenCV`. This tool allows you to resize an image by a specified percentage and save the resized image in a new file.
 
 ## Features:

@@ -47,13 +47,13 @@ The resized image will be saved as `newSrk.png` in the same folder. The script w
 
 The script follows these steps:
 
-**Load the Image:** Loads the specified image using `cv2.imread()`.
+- **Load the Image:** Loads the specified image using `cv2.imread()`.
 
-**Calculate New Dimensions:**  Calculates the new width and height based on the specified `scale_percent`.
+- **Calculate New Dimensions:**  Calculates the new width and height based on the specified `scale_percent`.
 
-**Resize the Image:**  Uses `cv2.resize()` to resize the image.
+- **Resize the Image:**  Uses `cv2.resize()` to resize the image.
 
-**Save and Display the Image:**  Saves the resized image using `cv2.imwrite()` and optionally displays it in a new window.
+- **Save and Display the Image:**  Saves the resized image using `cv2.imwrite()` and optionally displays it in a new window.
 
 ## Example:
 
@@ -61,11 +61,11 @@ For a 50% resize of an image named `srk.jpg`, `set scale_percent = 50`, then run
 
 ## Potential Enhancements:
 
-**Command-line Arguments:**  Allow setting parameters like source image, destination file, and scale percentage via command-line options.
+- **Command-line Arguments:**  Allow setting parameters like source image, destination file, and scale percentage via command-line options.
 
-**Aspect Ratio Resize:** Enable resizing by specifying a target width or height while maintaining the original aspect ratio.
+- **Aspect Ratio Resize:** Enable resizing by specifying a target width or height while maintaining the original aspect ratio.
 
-**Batch Processing:**  Resize multiple images at once.
+- **Batch Processing:**  Resize multiple images at once.
 
 ## License
 

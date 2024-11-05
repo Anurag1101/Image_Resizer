@@ -18,20 +18,20 @@ A simple Python script for resizing images using `OpenCV`. This tool allows you 
 
 ## Installation:
 
-#### Clone this repository to your local machine:
+- #### Clone this repository to your local machine:
 
     git clone https://github.com/your-username/Image_Resizer.git
     cd Image_Resizer
 
-#### Install the required OpenCV library if not already installed:
+- #### Install the required OpenCV library if not already installed:
 
     pip install opencv-python
 
 ## Usage:
 
-Place the **source image** (e.g., `srk.jpg`) in the repository folder.
+- Place the **source image** (e.g., `srk.jpg`) in the repository folder.
 
-Set the `source`, `destination`, and `scale_percent` variables in the script:
+- Set the `source`, `destination`, and `scale_percent` variables in the script:
 
     source = "srk.jpg"        # Path to the original image
     destination = "newSrk.png"  # Path for saving the resized image

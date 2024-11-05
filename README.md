@@ -4,11 +4,11 @@ A simple Python script for resizing images using `OpenCV`. This tool allows you 
 
 ## Features:
 
-Resize an image to a custom scale percentage.
+- Resize an image to a custom scale percentage.
 
-Save the resized image in a specified output file format.
+- Save the resized image in a specified output file format.
 
-Preview the resized image in a display window.
+- Preview the resized image in a display window.
 
 ## Requirements:
 

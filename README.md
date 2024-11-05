@@ -5,33 +5,38 @@ A simple Python script for resizing images using `OpenCV`. This tool allows you 
 ## Features:
 
 Resize an image to a custom scale percentage.
+
 Save the resized image in a specified output file format.
+
 Preview the resized image in a display window.
-Requirements
-Python 3.x
-OpenCV (cv2)
-Installation
-Clone this repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/Image_Resizer.git
-cd Image_Resizer
-Install the required OpenCV library if not already installed:
+## Requirements:
 
-bash
-Copy code
-pip install opencv-python
-Usage
-Place the source image (e.g., srk.jpg) in the repository folder.
+### Python 3.x
 
-Set the source, destination, and scale_percent variables in the script:
+### OpenCV (cv2)
 
-python
-Copy code
-source = "srk.jpg"        # Path to the original image
-destination = "newSrk.png"  # Path for saving the resized image
-scale_percent = 50         # Resize percentage (e.g., 50% of original size)
+## Installation:
+
+#### Clone this repository to your local machine:
+
+    git clone https://github.com/your-username/Image_Resizer.git
+    cd Image_Resizer
+
+#### Install the required OpenCV library if not already installed:
+
+    pip install opencv-python
+
+## Usage:
+
+Place the **source image** (e.g., `srk.jpg`) in the repository folder.
+
+Set the `source`, `destination`, and `scale_percent` variables in the script:
+
+    source = "srk.jpg"        # Path to the original image
+    destination = "newSrk.png"  # Path for saving the resized image
+    scale_percent = 50         # Resize percentage (e.g., 50% of original size)
+
 Run the script:
 
 bash

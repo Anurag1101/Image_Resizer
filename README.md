@@ -59,10 +59,15 @@ The script follows these steps:
 
 For a 50% resize of an image named `srk.jpg`, `set scale_percent = 50`, then run the script. The output file (`newSrk.png`) will be half the size of the original image.
 
-Potential Enhancements
-Command-line Arguments: Allow setting parameters like source image, destination file, and scale percentage via command-line options.
-Aspect Ratio Resize: Enable resizing by specifying a target width or height while maintaining the original aspect ratio.
-Batch Processing: Resize multiple images at once.
-License
-This project is licensed under the MIT License.
+## Potential Enhancements:
+
+**Command-line Arguments:**  Allow setting parameters like source image, destination file, and scale percentage via command-line options.
+
+**Aspect Ratio Resize:** Enable resizing by specifying a target width or height while maintaining the original aspect ratio.
+
+**Batch Processing:**  Resize multiple images at once.
+
+## License
+
+This project is licensed under the `MIT License`.
 

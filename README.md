@@ -37,22 +37,27 @@ Set the `source`, `destination`, and `scale_percent` variables in the script:
     destination = "newSrk.png"  # Path for saving the resized image
     scale_percent = 50         # Resize percentage (e.g., 50% of original size)
 
-Run the script:
+#### Run the script:
 
-bash
-Copy code
-python image_resizer.py
-The resized image will be saved as newSrk.png in the same folder. The script will display the resized image in a preview window. Press any key to close the window.
+    python image_resizer.py
 
-Code Overview
+The resized image will be saved as `newSrk.png` in the same folder. The script will display the resized image in a preview window. Press any key to close the window.
+
+## Code Overview:
+
 The script follows these steps:
 
-Load the Image: Loads the specified image using cv2.imread().
-Calculate New Dimensions: Calculates the new width and height based on the specified scale_percent.
-Resize the Image: Uses cv2.resize() to resize the image.
-Save and Display the Image: Saves the resized image using cv2.imwrite() and optionally displays it in a new window.
-Example
-For a 50% resize of an image named srk.jpg, set scale_percent = 50, then run the script. The output file (newSrk.png) will be half the size of the original image.
+**Load the Image:** Loads the specified image using `cv2.imread()`.
+
+**Calculate New Dimensions:**  Calculates the new width and height based on the specified `scale_percent`.
+
+**Resize the Image:**  Uses `cv2.resize()` to resize the image.
+
+**Save and Display the Image:**  Saves the resized image using `cv2.imwrite()` and optionally displays it in a new window.
+
+## Example:
+
+For a 50% resize of an image named `srk.jpg`, `set scale_percent = 50`, then run the script. The output file (`newSrk.png`) will be half the size of the original image.
 
 Potential Enhancements
 Command-line Arguments: Allow setting parameters like source image, destination file, and scale percentage via command-line options.

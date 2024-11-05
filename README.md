@@ -12,9 +12,9 @@ A simple Python script for resizing images using `OpenCV`. This tool allows you 
 
 ## Requirements:
 
-### Python 3.x
+- ### Python 3.x
 
-### OpenCV (cv2)
+- ### OpenCV (cv2)
 
 ## Installation:
 

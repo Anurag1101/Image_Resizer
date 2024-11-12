@@ -69,5 +69,5 @@ For a 50% resize of an image named `srk.jpg`, `set scale_percent = 50`, then run
 
 ## License
 
-This project is licensed under the `MIT License`.
+This project is licensed under the `MIT` License.
 
